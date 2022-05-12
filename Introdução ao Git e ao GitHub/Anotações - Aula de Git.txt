@@ -1,0 +1,53 @@
+# Comados GIT:
+
+ - Mudar de pastas
+cd ..
+
+ - Listar as pastas
+dir
+
+ - Criar pastas/arquivos
+mkdir
+
+ - Deletar pastas/arquivos
+arquivo: del
+pastas: rmdir /S/Q
+
+ - Limpar terminal
+cls
+
+ - SHA1 : 
+Algoritmo de hash seguro
+
+ - Objetos fundamentais:
+BLOBS: tem o sha1 dos arquivos
+TREES: tem o sha1 dos blobls
+COMMITS: tem o sha1 das trees
+
+- Sistema distribuído
+- Segurançacat id_ed
+
+
+
+# CRIAÇÃO DA CHAVE:	
+
+ssh-keygen -t ed25519 -C daavidjnr@gmail.com
+
+cd "/c/Users/Karen Manoele/.ssh/"
+
+ls
+
+cat id_ed25519.pub
+
+pwd
+
+$ eval $(ssh-agent -s)
+
+$ ls
+id_ed25519  id_ed25519.pub
+
+$ ssh-add id_ed25519
+
+
+
+GIT CLONE PARA CLONAR
